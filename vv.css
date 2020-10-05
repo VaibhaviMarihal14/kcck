@@ -16,11 +16,6 @@
   clear: both;
 }
 
-#cr1:hover {
-    background-color: #70adb5;
-    color: white;
-}
-
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {

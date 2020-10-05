@@ -1,3 +1,12 @@
+  #pat {
+  	font-size: 16px;
+  }
+  @media screen and (max-width: 600px) {
+  	#pat {
+  	font-size: 13px;
+  }
+  }
+
   .card-deck .card {
   	margin-top: 15px;
   	margin-bottom: 15px;
@@ -13,14 +22,9 @@
 .card-deck .card:not(:first-child) {
     margin-left: 15px;
 }
-.card-deck .card:hover {
-  background-color: #66bfbf;
-  color: white;
-}
 
 @media screen and (max-width: 600px) {
   .card-deck .card {
-  	height: 100vh;
   	margin-top: 15px;
   	margin-bottom: 15px;
     margin-left: 15px;
