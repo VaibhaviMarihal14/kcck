@@ -1,5 +1,6 @@
   #pat {
-  	font-size: 16px;
+  	color: #150485;
+  	font-size: 20px;
   }
   @media screen and (max-width: 600px) {
   	#pat {
