@@ -8,6 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="nav.css">
   <link rel="stylesheet" type="text/css" href="vv.css">
   <link rel="stylesheet" type="text/css" href="ourteam.css">
@@ -50,11 +51,21 @@
 
 <!-- navigaton -->
 <div class="header">
-  <a class="nav-link" href="#"><i class="fa fa-envelope" style="color: #f6f7d4"> help@kleemcare.com</i></a>
+  <a class="nav-link" href="mailto:info@kleemcare.com"><i class="fa fa-envelope" style="color: #f6f7d4"> info@kleemcare.com</i></a>
   <div class="header-right">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><i class="far fa-clock"></i>
+      Timings
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">9am to 5pm<br>(mon-sat)</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">sunday holiday</a>
+    </div>
+  </div>
+
     
-    <a class="nav-link" href="#"><i class="fa fa-phone" style="color: #f6f7d4"> +91xxxxxxxxxxx</i></a>
-    <a class="nav-link" href="#"><i class="fas fa-map-marker-alt" style="color: #f6f7d4"> location</i></a> 
+    <a class="nav-link" href="tel:9629520297"><i class="fa fa-phone" style="color: #f6f7d4"> 9629520297</i></a>
+    <a class="nav-link" href="https://goo.gl/maps/73vn11KqkKNdWdv77"><i class="fa fa-map-marker" style="color: #f6f7d4"> Banglore</i></a> 
   </div>
 </div>
 
@@ -385,7 +396,7 @@ startBubbles();
                           </div>
         </div>
         <div class="card mb-5">
-            <img class="card-img-top img-fluid" src="o2.png" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="o6.png" alt="Card image cap">
             <div class="card-body text-center">
                 <h4 class="card-title"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">NEUROLOGICAL CONDITIONS</button></h4>
                 <div id="demo" class="collapse">
@@ -408,7 +419,7 @@ startBubbles();
         
         <div class="w-100 d-none d-xl-block"><!-- wrap every 5 on xl--></div>
         <div class="card mb-5">
-            <img class="card-img-top img-fluid" src="Group 11.png" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="o2.png" alt="Card image cap">
             <div class="card-body text-center">
                 <h4 class="card-title"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">SPORTS INJURIES</button></h4>
                 <div id="demo" class="collapse">
@@ -419,11 +430,11 @@ startBubbles();
         <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
         <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
         <div class="card mb-5">
-            <img class="card-img-top img-fluid" src="Group 11.png" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="o5.png" alt="Card image cap">
             <div class="card-body text-center">
                 <h4 class="card-title"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">CARDIO-RESPIRATORY PROBLEMS</button></h4>
                 <div id="demo" class="collapse">
-                <p class="card-text" style="font-size: 12px;">Chest physiotheraphy, Deep Vein Thrombosis (DVT), Breathing exercise for Bronchiectasis, Asthma,Chronic Bronchitis etc .</p>
+                <p class="card-text" style="font-size: 12px;">Cystic fibrosis (CF) is a disorder which directly affects the lungs due to which patient face difficult to breath. Chest infections, a cough and weight gain are the symptoms of CF. Secretions in lungs makes patient lazy. When we talk about babies, who are suffering from CF, will be having abnormally thick mucus. This blocks the airways and cause an infection in babies. Our physiotherapists provide the treatment to clear the airways (chest physiotherapy). We also provide  medicine treatment for patients to clear lungs secretions by preventing lung collapse. Our physiotherapist provide antibiotics treatment so that the breathing efforts are reduced and area of lungs is improved.</p>
                 </div>
             </div>
         </div>
@@ -515,7 +526,7 @@ startBubbles();
     <h3><center><b style="color:#0500FC; text-decoration: underline;">Booking Form</b></center></h3>
     <div class="row" id="r2">
       <div class="col-25">
-        <label for="fname">Full Name</label>
+        <label for="fname">Full Name :</label>
       </div>
       <div class="col-75">
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -523,7 +534,7 @@ startBubbles();
     </div>
     <div class="row" id="r2">
       <div class="col-25">
-        <label for="pnum">Mobile Number</label>
+        <label for="pnum">Mobile Number :</label>
       </div>
       <div class="col-75">
         <input type="text" id="pnum" name="mnumber" placeholder="Your Mobile number">
@@ -531,7 +542,7 @@ startBubbles();
     </div>
     <div class="row" id="r2">
       <div class="col-25">
-        <label for="state">Location</label>
+        <label for="state">Location :</label>
       </div>
       <div class="col-75">
         <select id="state" name="state">
@@ -543,7 +554,7 @@ startBubbles();
     </div>
     <div class="row" id="r2">
       <div class="col-25">
-        <label for="subject">Subject</label>
+        <label for="subject">Subject :</label>
       </div>
       <div class="col-75">
         <textarea id="subject" name="subject" placeholder="Main reason for consultation (write in 60 words)" style="height:200px"></textarea>
@@ -582,7 +593,7 @@ startBubbles();
         </div>
         <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
         <div class="card mb-4">
-            <img class="card-img-top img-fluid" src="Group 35.png" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="I3.png" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">Card title</h4>
                 <p class="card-text" style="font-size: 13px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -591,7 +602,7 @@ startBubbles();
         </div>
         <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
         <div class="card mb-4">
-            <img class="card-img-top img-fluid" src="Ultrasound.png" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="I4.png" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">Card title</h4>
                 <p class="card-text" style="font-size: 13px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -697,7 +708,7 @@ startBubbles();
     <div class="card bg-light">
       <div class="chip">
       <img src="img_avatar.png" width="96" height="96">
-        John Doe
+        Vaibhavi M, From Belgaum
     </div>
       <div class="card-body text-center">
 
@@ -706,14 +717,14 @@ startBubbles();
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>
-        <p class="card-text">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education.</p>
+        <p class="card-text" id="rev_font">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education.</p>
     
       </div>
     </div>
     <div class="card bg-light">
             <div class="chip">
       <img src="img_avatar.png" width="96" height="96">
-        John Doe
+        Mrunal M, From Belgaum
     </div>
       <div class="card-body text-center">
 
@@ -722,7 +733,7 @@ startBubbles();
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star"></span>
-        <p class="card-text">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
+        <p class="card-text" id="rev_font">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
       </div>
     </div>
     </div>
@@ -732,7 +743,7 @@ startBubbles();
     <div class="card bg-light">
             <div class="chip">
       <img src="img_avatar.png" width="96" height="96">
-        John Doe
+        Siri C S, From Banglore
     </div>
       <div class="card-body text-center">
 
@@ -741,14 +752,14 @@ startBubbles();
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star"></span>
-        <p class="card-text">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
+        <p class="card-text" id="rev_font">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
        
       </div>
     </div>
     <div class="card bg-light">
             <div class="chip">
       <img src="img_avatar.png" width="96" height="96">
-        John Doe
+        Arun K, From Mysuru
     </div>
       <div class="card-body text-center">
 
@@ -757,7 +768,7 @@ startBubbles();
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star"></span>
       <span class="fa fa-star"></span>
-        <p class="card-text">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
+        <p class="card-text" id="rev_font">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
       </div>
     </div>
     </div>
@@ -767,7 +778,7 @@ startBubbles();
     <div class="card bg-light">
             <div class="chip">
       <img src="img_avatar.png" width="96" height="96">
-        John Doe
+        Tej R, From Mysuru
     </div>
       <div class="card-body text-center">
 
@@ -776,14 +787,14 @@ startBubbles();
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star"></span>
       <span class="fa fa-star"></span>
-        <p class="card-text">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
+        <p class="card-text" id="rev_font">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
       
       </div>
     </div>
     <div class="card bg-light">
             <div class="chip">
       <img src="img_avatar.png" width="96" height="96">
-        John Doe
+        Mayank, From Banglore
     </div>
       <div class="card-body text-center">
 
@@ -792,7 +803,7 @@ startBubbles();
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star"></span>
       <span class="fa fa-star"></span>
-        <p class="card-text">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
+        <p class="card-text" id="rev_font">All appointments are spent with your physiotherapist focusing only on you. Our goal is to spend more one on one time with our clients providing thorough assessments, treatments, and education</p>
       </div>
     </div>
     </div>
@@ -855,7 +866,6 @@ startBubbles();
             <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
             <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
             <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
           </ul>
         </div>
@@ -863,7 +873,7 @@ startBubbles();
       </div>  
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-          <p>KleemCare</p>
+          <p>Registered Office  : 112, CKG ROAD , NAGAYANAPALYA, M S NAGAR, BANGALORE</p>
           <p class="h6">© All right Reversed.<a class="text-green ml-2"target="_blank"></a></p>
         </div>
         <hr>
