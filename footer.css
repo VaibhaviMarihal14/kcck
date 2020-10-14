@@ -14,10 +14,10 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #7d0633 !important;
+    background: #28abb9 !important;
 }
 #footer h5{
-    padding-left: 10px;
+    padding-left: 5px;
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
@@ -75,6 +75,9 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+	#foot_fs{
+		font-size: 14px;
+	}
 }
 
 @media (max-width:767px){
